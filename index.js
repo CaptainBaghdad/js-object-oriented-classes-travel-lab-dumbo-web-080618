@@ -30,7 +30,7 @@ class Route {
    
   const horizontal = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal)
   
-  return vertical + horizontal;
+  return horizontal + vertical;
    
  }
   
