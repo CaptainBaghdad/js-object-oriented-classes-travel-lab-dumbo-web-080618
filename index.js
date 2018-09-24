@@ -34,8 +34,14 @@ class Route {
    
  }
   
-  estimatedTime(){
-    return this.blocksTravelled() / 3;
+  estimatedTime(peek){
+    if(peek == undefined){
+      return this.blocksTravelled() / 3;
+    }
+    else{
+      return this.blocksTravelled() / 2;
+    }
+    
   }
     
   }
