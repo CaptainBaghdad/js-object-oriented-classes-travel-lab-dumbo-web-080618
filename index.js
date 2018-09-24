@@ -28,7 +28,7 @@ class Route {
    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
    const vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
    
-   return vertical;
+  const horizontal = this.endingLocation.horizontal.indexOf(eastWest) - this.begginingLocation.horizontal.indexOf(eastWest)
    
  }
   
