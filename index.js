@@ -20,20 +20,12 @@ class Route {
     this.start = start;
     this.end = end;
     
-    console.log(typeof end);
+    console.log(end.length);
   } 
  
  
- blocksTravelled(){
-   let e ;
-   let s;
-   
-  for(let key in this.end){
-   e = key.vertical;
-   console.log(e);
-    
-  }
+ 
   
- }
+ 
  
 }
