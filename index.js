@@ -29,6 +29,8 @@ class Route {
    const vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
    
   const horizontal = this.endingLocation.horizontal.indexOf(eastWest) - this.begginingLocation.horizontal.indexOf(eastWest)
+  
+  return verical + horizontal;
    
  }
   
