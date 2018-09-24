@@ -37,6 +37,8 @@ class Route {
   estimatedTime(){
     
   }
+    
+  }
  
  
 }
