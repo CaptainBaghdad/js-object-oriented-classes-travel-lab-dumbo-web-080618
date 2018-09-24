@@ -17,10 +17,10 @@ class Driver{
 
 class Route {
   constructor(beginningLocation, endingLocation){
-    this.start = start;
-    this.end = end;
+    this.beginningLocation = beginningLocation;
+    this.endingLocation = endingLocation;
     
-    console.log(this.end.vertical);
+    console.log(this.endingLocation.vertical);
   } 
  
  
