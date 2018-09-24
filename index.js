@@ -20,7 +20,7 @@ class Route {
     this.start = start;
     this.end = end;
     
-    console.log(end.length);
+    console.log(this.end.horizontal);
   } 
  
  
